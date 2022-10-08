@@ -1,0 +1,29 @@
+.video {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  min-width: 400px;
+  border: 1px solid lightgrey;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* padding: 0.2rem; */
+  cursor: pointer;
+  transition: all 250ms;
+}
+.video:hover {
+  background-color: lightgray;
+  transform: scale(1.02);
+}
+.img {
+  width: 40%;
+  height: 100%;
+}
+.description {
+  padding-left: 1rem;
+}
+.title {
+  font-size: large;
+  font-weight: 700;
+}
+.channelTitle {
+  color: darkgray;
+}
