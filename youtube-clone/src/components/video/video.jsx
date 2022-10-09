@@ -7,9 +7,6 @@ function Video({
     snippet: { thumbnails },
   },
 }) {
-  //   console.log(snippet);
-  //   console.log(video);
-  //   console.log(thumbnails);
   return (
     <li className={styles.video}>
       <img

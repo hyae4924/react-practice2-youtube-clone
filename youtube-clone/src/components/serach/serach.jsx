@@ -8,7 +8,7 @@ function Serach({ searchHandle }) {
   const onSubmit = event => {
     event.preventDefault();
     searchHandle(inputRef.current.value);
-    inputRef.focusOut();
+    inputRef.current.blur();
   };
 
   return (
