@@ -7,6 +7,7 @@ function App({ youtube }) {
   const [videoDatas, setVideoDatas] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
   const selected_video_className = selectedVideo ? "side" : "main";
+
   const searchHandle = async query => {
     const data = await youtube.search(query);
     setVideoDatas(data);

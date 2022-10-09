@@ -12,6 +12,7 @@ function Video({
   const display = className === "main" ? styles.main : styles.side;
   const onClick = event => {
     selectHandle(video);
+    window.scrollTo(0, 0);
   };
   return (
     <li className={`${styles.video} ${display}`} onClick={onClick}>

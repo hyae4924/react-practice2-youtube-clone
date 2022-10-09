@@ -13,7 +13,12 @@ function Serach({ searchHandle }) {
 
   return (
     <form className={styles.search} onSubmit={onSubmit}>
-      <img className={styles.logo_img} src={logo} alt="logo" />
+      <img
+        onClick={() => window.location.reload()}
+        className={styles.logo_img}
+        src={logo}
+        alt="logo"
+      />
       <input
         ref={inputRef}
         placeholder=" 검색"

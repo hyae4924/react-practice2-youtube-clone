@@ -9,6 +9,11 @@
 .logo_img {
   width: 10rem;
   height: 4rem;
+  transition: all 200ms;
+}
+.logo_img:hover {
+  scale: 1.06;
+  cursor: pointer;
 }
 .input {
   width: 80%;
