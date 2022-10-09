@@ -2,13 +2,15 @@
   max-width: 80rem;
   margin: auto;
 }
-.content {
-  display: flex;
-}
+@media screen and (min-width: 1150px) {
+  .content {
+    display: flex;
+  }
 
-.selected {
-  flex: 1 1 70%;
-}
-.list {
-  flex: 1 1 30rem;
+  .selected {
+    flex: 1 1 70%;
+  }
+  .list {
+    flex: 1 1 30rem;
+  }
 }
