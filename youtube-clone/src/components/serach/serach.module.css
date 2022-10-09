@@ -1,0 +1,33 @@
+.search {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_img {
+  width: 10rem;
+  height: 4rem;
+}
+.input {
+  width: 80%;
+  outline: 0;
+  height: 40px;
+}
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  border: 1px solid black;
+  transition: all 250ms;
+}
+.btn:hover {
+  background-color: lightblue;
+  transform: scale(1.02);
+}
+
+.btn_img {
+  width: 3rem;
+}
