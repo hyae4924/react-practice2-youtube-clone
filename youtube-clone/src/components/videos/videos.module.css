@@ -1,8 +1,7 @@
 .videos {
-  width: 80%;
   display: flex;
   flex-wrap: wrap;
-
   margin: auto;
   padding: 0 2rem;
+  min-width: 190px;
 }

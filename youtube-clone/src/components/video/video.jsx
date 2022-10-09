@@ -1,14 +1,20 @@
 import React from "react";
 import styles from "./video.module.css";
 function Video({
+  className,
   video,
   video: { snippet },
   video: {
     snippet: { thumbnails },
   },
+  selectHandle,
 }) {
+  const display = className === "main" ? styles.main : styles.side;
+  const onClick = event => {
+    selectHandle(video);
+  };
   return (
-    <li className={styles.video}>
+    <li className={`${styles.video} ${display}`} onClick={onClick}>
       <img
         alt="thumbnail-img"
         className={styles.img}

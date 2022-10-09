@@ -1,3 +1,14 @@
-.logo_img {
-  width: 2rem;
+.app {
+  max-width: 80rem;
+  margin: auto;
+}
+.content {
+  display: flex;
+}
+
+.selected {
+  flex: 1 1 70%;
+}
+.list {
+  flex: 1 1 30rem;
 }
