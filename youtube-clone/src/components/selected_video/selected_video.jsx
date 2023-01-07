@@ -5,6 +5,7 @@ function SelectedVideo({ video, video: { id, snippet } }) {
   return (
     <>
       <iframe
+        title="video"
         className={styles.video}
         type="text/html"
         width="100%"
